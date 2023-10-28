@@ -1,0 +1,18 @@
+.bag {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/menu-bag.svg);
+  background-size: cover;
+
+  @extend %link-style;
+  @extend %link-no-highlight;
+
+  @include for-desktop() {
+    display: block;
+  }
+
+  &__label {
+    @extend %visually-hidden;
+  }
+}

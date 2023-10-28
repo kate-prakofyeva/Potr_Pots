@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 10px;
+
+  @include for-tablet() {
+    padding: 29px 0 10px;
+  }
+
+  @include for-desktop() {
+    padding: 20px 0 9px;
+  }
+
+  &__logo {
+    height: 43px;
+  }
+
+  // &__list {
+  // }
+
+  &__bag {
+    margin-right: 8px;
+  }
+
+  &__burger {
+    margin-right: 8px;
+  }
+}

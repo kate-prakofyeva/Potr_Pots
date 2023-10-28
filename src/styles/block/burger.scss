@@ -1,0 +1,18 @@
+.burger {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/menu-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  @extend %link-style;
+  @extend %link-no-highlight;
+
+  @include for-desktop() {
+    display: none;
+  }
+
+  &__label {
+    @extend %visually-hidden;
+  }
+}

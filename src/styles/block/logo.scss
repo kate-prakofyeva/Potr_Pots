@@ -1,0 +1,11 @@
+.logo {
+  color: $gray-1;
+  font-family: $font-headings;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.16px;
+  @extend %link-style;
+  @extend %link-no-highlight;
+}

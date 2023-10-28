@@ -1,0 +1,27 @@
+.list {
+  display: none;
+
+  @include for-tablet() {
+    display: none;
+  }
+
+  @include for-desktop() {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  // &__item {
+  // }
+
+  &__link {
+    color: $gray-2;
+    font-family: $font-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    @extend %link-style;
+    @extend %link-no-highlight;
+  }
+}

@@ -1,8 +1,14 @@
 @import "utils";
-@import "fonts";
 @import "typography";
+@import "./block/header";
+@import "./block/navigation";
+@import "./block/logo";
+@import "./block/burger";
+@import "./block/list";
+@import "./block/close";
+@import "./block/bag.scss";
 
 body {
-  background: $c-gray;
+  background: $gray-light;
   font-family: $font-headings;
 }

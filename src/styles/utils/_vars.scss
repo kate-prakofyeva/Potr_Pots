@@ -4,10 +4,10 @@ $c-gray: #eee;
 $turquoise: #03839e;
 $yellow: #ffe339;
 $yelow-light: #ffec7a;
-$grey: #b3b3b3;
-$grey-1: #333333;
-$grey-2: #4f4f4f;
-$grey-light: #f8f8f8;
+$gray: #b3b3b3;
+$gray-1: #333;
+$gray-2: #4f4f4f;
+$gray-light: #f8f8f8;
 $red: #eb5757;
 
 $white: #fff;
@@ -16,9 +16,13 @@ $black-1: #121212;
 /* #endregion Colors */
 
 /* #region Font-properties */
-$font-headings: 'Bebas Neue', sans-serif;
-$font-text: 'Manrope', sans-serif;
+$font-headings: "Bebas Neue", sans-serif;
+$font-text: "Manrope", sans-serif;
 /* #endregion Font-properties */
 
 /* #region Sizes */
+$offset-30: 30px;
+$offset-15: 15px;
+$nav-height-mob: 68px;
+$nav-height-tabl: 72px;
 /* #endregion Sizes */

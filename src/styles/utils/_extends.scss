@@ -2,3 +2,31 @@
   font-family: $font-headings;
   font-weight: 400;
 }
+
+%link-style {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+%link-no-highlight {
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+%nav-height {
+  height: $nav-height-mob;
+
+  @include for-tablet() {
+    height: $nav-height-tabl;
+  }
+}
+
+%visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

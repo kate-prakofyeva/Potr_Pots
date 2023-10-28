@@ -1,0 +1,66 @@
+.header {
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 120px);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 30px;
+
+  @include for-tablet() {
+    grid-template-columns: repeat(6, 100px);
+    padding: 0 34px;
+  }
+
+  @include for-desktop() {
+    grid-template-columns: repeat(12, 70px);
+    gap: 30px;
+    padding: 0 135px;
+  }
+
+  &__navigation {
+    align-self: start;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+
+    @include for-tablet() {
+      grid-column: 1 / 7;
+    }
+
+    @include for-desktop() {
+      grid-column: 1 / 13;
+    }
+  }
+
+  &__picture {
+    position: absolute;
+    left: -30px;
+    top: $nav-height-mob;
+    align-self: start;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+
+    @include for-tablet() {
+      grid-column: 1 / 7;
+    }
+
+    @include for-desktop() {
+      grid-column: 1 / 13;
+    }
+  }
+
+  &__heading {
+    align-self: start;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+
+    @include for-tablet() {
+      grid-column: 1 / 7;
+    }
+
+    @include for-desktop() {
+      grid-column: 1 / 13;
+    }
+  }
+}

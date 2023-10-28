@@ -7,7 +7,7 @@
       type="image/x-icon"
       href="./images/faviconPO.ico"
     >
-    <title>Title</title>
+    <title>POTR POTS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect"
       href="https://fonts.gstatic.com"
@@ -17,7 +17,52 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <header class="header" id="home">
+      <nav class="header__navigation navigation">
+        <a href="#home" class="navigation__logo logo">
+          POTR POTS
+        </a>
+        <ul class="list navigation__list">
+          <li class="list__item">
+            <a href="#" class="list__link">Features</a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">About us</a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">Materials</a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">Message us</a>
+          </li>
+        </ul>
+        <a href="#bags" class="navigation__bag bag">
+          <span class="bag__label">Shopping bag</span>
+        </a>
+        <a href="#menu" class="navigation__burger burger">
+          <span class="burger__label">Open menu</span>
+        </a>
+      </nav>
+      <picture class="header__picture">
+        <source media="(max-width: 768px)" srcset="./images/header-img-mob.jpg" >
+        <source media="(max-width: 1280px)" srcset="./images/header-img-tabl.jpg" >
+        <source media="(min-width: 1440px)" srcset="./images/header-img-desk.jpg" >
+        <img
+         src="./images/header-img-desk.jpg"
+         alt="Image of SMall pot"
+         class="header__image">
+      </picture>
+      <h1 class="header__heading"></h1>
+      <div class="header__">
+        <p></p>
+        <p></p>
+        <button></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__section section"></section>
+
+    </main>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

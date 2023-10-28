@@ -1,0 +1,9 @@
+.close {
+  display: inline-block;
+  background-image: url(../images/menu-close.svg);
+  background-size: cover;
+
+  &__label {
+    @extend %visually-hidden;
+  }
+}
