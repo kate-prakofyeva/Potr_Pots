@@ -1,0 +1,38 @@
+.hero {
+  &__picture {
+    display: block;
+    position: relative;
+    height: 319px;
+    left: -30px;
+    margin-bottom: 25px;
+  }
+
+  &__heading {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__price {
+    color: $gray-1;
+    font-family: $font-text;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__description {
+    color: $gray-2;
+    font-family: $font-text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    margin-bottom: 20px;
+  }
+}

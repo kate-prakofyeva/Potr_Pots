@@ -17,6 +17,6 @@
   }
 }
 
-// @mixin smooth($property) {
-//   transition: $property 0.5s ease-in-out;
-// }
+@mixin smooth($property) {
+  transition: $property 0.5s ease-in-out;
+}

@@ -1,7 +1,15 @@
 .close {
+  position: fixed;
+  top: calc(100vh - 152px);
+  right: 32px;
+  width: 13px;
+  height: 117px;
   display: inline-block;
-  background-image: url(../images/menu-close.svg);
+  content: "";
+  background-image: url(../images/close.svg);
   background-size: cover;
+  @extend %link-style;
+  @extend %link-no-highlight;
 
   &__label {
     @extend %visually-hidden;

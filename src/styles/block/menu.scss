@@ -1,0 +1,24 @@
+.menu {
+  position: fixed;
+  margin-left: 89px;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(100%);
+  @include smooth(transform);
+  background-color: $turquoise;
+  padding: 138px 30px 250px 84px;
+  height: 100vh;
+
+  &:target {
+    transform: translateX(0);
+  }
+
+  @include for-tablet() {
+    grid-template-columns: repeat(6, 100px);
+  }
+
+  @include for-desktop() {
+    display: none;
+  }
+}

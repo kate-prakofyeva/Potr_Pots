@@ -6,7 +6,11 @@
 @import "./block/burger";
 @import "./block/list";
 @import "./block/close";
-@import "./block/bag.scss";
+@import "./block/bag";
+@import "./block/hero";
+@import "./block/button";
+@import "./block/menu";
+@import "./block/links";
 
 body {
   background: $gray-light;

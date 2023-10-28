@@ -43,22 +43,56 @@
           <span class="burger__label">Open menu</span>
         </a>
       </nav>
-      <picture class="header__picture">
-        <source media="(max-width: 768px)" srcset="./images/header-img-mob.jpg" >
-        <source media="(max-width: 1280px)" srcset="./images/header-img-tabl.jpg" >
-        <source media="(min-width: 1440px)" srcset="./images/header-img-desk.jpg" >
-        <img
-         src="./images/header-img-desk.jpg"
-         alt="Image of SMall pot"
-         class="header__image">
-      </picture>
-      <h1 class="header__heading"></h1>
-      <div class="header__">
-        <p></p>
-        <p></p>
-        <button></button>
+      <div class="header__hero hero">
+        <picture class="hero__picture">
+          <source media="(max-width: 768px)" srcset="./images/header-img-mob.jpg" >
+          <source media="(max-width: 1280px)" srcset="./images/header-img-tabl.jpg" >
+          <source media="(min-width: 1440px)" srcset="./images/header-img-desk.jpg" >
+          <img
+           src="./images/header-img-desk.jpg"
+           alt="Image of SMall pot"
+           class="header__image">
+        </picture>
+        <picture class="hero__heading">
+          <source media="(max-width: 768px)" srcset="./images/hero-mob.svg" >
+          <source media="(max-width: 1280px)" srcset="./images/hero-tabl.svg" >
+          <source media="(min-width: 1440px)" srcset="./images/hero-desk.svg" >
+          <img
+           src="./images/hero-mob.svg"
+           alt="Image of SMall pot"
+           class="header__image">
+        </picture>
+        <div class="hero__order">
+          <p class="hero__price">$ 7,50</p>
+          <p class="hero__description">Get the second order<br> in half price</p>
+          <button class="button hero__button">Buy now</button>
+        </div>
       </div>
     </header>
+    <div class="menu" id="menu">
+      <nav class="links menu__links">
+        <ul class="links__list">
+          <li class="links__item">
+            <a href="#recommended" class="links__link"> Basket</a>
+          </li>
+          <li class="links__item">
+            <a href="#categories" class="links__link"> Features</a>
+          </li>
+          <li class="links__item">
+            <a href="#categories" class="links__link"> Materials</a>
+          </li>
+          <li class="links__item">
+            <a href="#about" class="links__link">About us</a>
+          </li>
+          <li class="links__item">
+            <a href="#contacts" class="links__link">Message us</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#header" class="close menu__close">
+        <span class="close__label">Close menu</span>
+      </a>
+    </div>
     <main class="main">
       <section class="main__section section"></section>
 
