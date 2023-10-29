@@ -1,0 +1,68 @@
+.for-whom {
+
+  &__picture {
+    @extend %hide-part;
+  }
+  &__star {
+    @extend %hide-part;
+    color: #000;
+    font-family: $font-headings;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.72px;
+  }
+
+  &__note {
+    @extend %hide-part;
+    color: $gray-1;
+    font-family: $font-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  &__number {
+    color: $black;
+    font-family: $font-headings;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 64.8px */
+    letter-spacing: 5.58px;
+    margin-bottom: 30px;
+
+    &::before {
+      display: inline-block;
+      width: 19px;
+      height: 44px;
+      content: "";
+      background-image: url(../images/number-divider.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  &__heading {
+    color: $black;
+    font-family: $font-headings;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 54px */
+    letter-spacing: 5.58px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    color: $gray-2;
+    font-family: $font-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}

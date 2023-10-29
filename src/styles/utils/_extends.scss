@@ -30,3 +30,29 @@
   white-space: nowrap;
   width: 1px;
 }
+
+%hide-part {
+  display: none;
+
+  @include for-tablet() {
+    display: block;
+  }
+
+  @include for-desktop() {
+    display: block;
+  }
+}
+
+%grid-layout {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 120px);
+
+  @include for-tablet() {
+    grid-template-columns: repeat(6, 100px);
+  }
+
+  @include for-desktop() {
+    grid-template-columns: repeat(12, 70px);
+  }
+}
