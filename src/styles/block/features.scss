@@ -1,5 +1,4 @@
 .features {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend %flex-col-center;
+  gap: 67px;
 }

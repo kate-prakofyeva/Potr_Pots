@@ -7,4 +7,14 @@
   line-height: 150%; /* 54px */
   letter-spacing: 5.58px;
   text-transform: uppercase;
+
+  &__h2 {
+    color: $gray-1;
+    font-family: $font-headings;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 8.99px;
+  }
 }

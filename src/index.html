@@ -155,13 +155,73 @@
           <img
             src="./images/features-heading-desk.svg"
             alt="POTR ~ Eco, self-watering, origami plant pots"
-            class="hero__h1"
+            class="section__h2"
           >
         </picture>
         <div class="section__container features">
-          <article class="feature__card card"></article>
+          <article class="feature__card card">
+            <picture class="card__picture">
+              <source media="(max-width: 768px)" srcset="./images/features-1-mob.jpg" >
+              <source media="(max-width: 1280px)" srcset="./images/features-1-tabl.jpg" >
+              <source media="(min-width: 1440px)" srcset="./images/features-1-desk.jpg" >
+              <img
+                src="./images/features-1-desk.jpg"
+                alt="Image for Flat pack postage"
+                class="card__image"
+              >
+            </picture>
+            <p class="card__title">Flat pack postage</p>
+            <p class="card__description">The pots will be shipped flat packed so they can be slipped through your letter box</p>
+          </article>
+          <article class="feature__card card">
+            <picture class="card__picture">
+              <source media="(max-width: 768px)" srcset="./images/features-2-mob.jpg" >
+              <source media="(max-width: 1280px)" srcset="./images/features-2-tabl.jpg" >
+              <source media="(min-width: 1440px)" srcset="./images/features-2-desk.jpg" >
+              <img
+                src="./images/features-2-desk.jpg"
+                alt="Image for Easy assembly"
+                class="card__image"
+              >
+            </picture>
+            <p class="card__title">Easy assembly</p>
+            <p class="card__description">POTR Pots are super easy (and super satisfying) to assemble using the quick draw cotton cord</p>
+          </article>
+          <article class="feature__card card">
+            <picture class="card__picture">
+              <source media="(max-width: 768px)" srcset="./images/features-3-mob.jpg" >
+              <source media="(max-width: 1280px)" srcset="./images/features-3-tabl.jpg" >
+              <source media="(min-width: 1440px)" srcset="./images/features-3-desk.jpg" >
+              <img
+                src="./images/features-3-desk.jpg"
+                alt="Image for Self-watering"
+                class="card__image"
+              >
+            </picture>
+            <p class="card__title">Self-watering</p>
+            <p class="card__description">Simply add water into the pot - if your plant is thirsty it will automatically start drinking the water through the cotton cord. Magic!</p>
+          </article>
         </div>
+      </section>
 
+      <section class="section">
+        <h2 class="section__title title__h2">Meet the POTR team!</h2>
+        <article class="section__container team">
+          <picture class="team__picture">
+            <source media="(max-width: 768px)" srcset="./images/team-img-mob.jpg" >
+            <source media="(max-width: 1280px)" srcset="./images/team-img-tabl.jpg" >
+            <source media="(min-width: 1440px)" srcset="./images/team-img-desc.jpg" >
+            <img
+              src="./images/team-img-desc.jpg"
+              alt="Image for Whom"
+              class="team__image"
+            >
+          </picture>
+          <p class="team__description">Andy and Martin are experienced product designers with a love of plants and the environment. They have over ten years combined industry experience in bringing products to market at some of the worlds largest consumer product companies.<br>
+            <br>
+          Having studied Product Design Engineering together at the Glasgow School of Art, they have a long history of working as a team on a variety of design projects.
+          </p>
+        </article>
       </section>
     </main>
     <script type="text/javascript" src="scripts/main.js"></script>
